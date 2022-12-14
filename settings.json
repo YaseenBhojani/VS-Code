@@ -1,5 +1,6 @@
 {
-  "editor.scrollbar.verticalScrollbarSize": 6,
+  // Editor Color Costomizations
+  // -------------------------------------------------------
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#ffdd00",
     "editor.background": "#131314",
@@ -11,7 +12,8 @@
     "terminal.foreground": "#fff",
     "statusBar.background": "#000"
   },
-  //
+  // -------------------------------------------------------
+  "editor.scrollbar.verticalScrollbarSize": 6,
   "editor.mouseWheelZoom": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -24,7 +26,7 @@
   "editor.letterSpacing": 0.5,
   "files.trimTrailingWhitespace": true,
   "editor.fontWeight": "400",
-  "editor.cursorWidth": 4,
+  "editor.cursorWidth": 3,
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -33,9 +35,11 @@
   },
 
   // PATH INTELLISENSE SETTINGS
+  // -------------------------------
   "typescript.suggest.paths": false,
   "javascript.suggest.paths": false,
   "editor.linkedEditing": true,
+  // -------------------------------
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -70,7 +74,7 @@
   "editor.accessibilitySupport": "off",
   "window.restoreFullscreen": true,
   "workbench.iconTheme": "material-icon-theme",
-  "editor.cursorBlinking": "expand",
+  "editor.cursorBlinking": "smooth",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
