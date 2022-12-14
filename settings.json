@@ -1,0 +1,85 @@
+{
+  "editor.scrollbar.verticalScrollbarSize": 6,
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#ffdd00",
+    "editor.background": "#131314",
+    "editorBracketMatch.background": "#000",
+    "menu.background": "#131314",
+    "sideBar.background": "#212122",
+    "terminal.background": "#040109",
+    "terminalCursor.foreground": "#fff",
+    "terminal.foreground": "#fff",
+    "statusBar.background": "#000"
+  },
+  //
+  "editor.mouseWheelZoom": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "\"cascadia code\",fira code,Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 17,
+  "editor.lineHeight": 25,
+  "editor.letterSpacing": 0.5,
+  "files.trimTrailingWhitespace": true,
+  "editor.fontWeight": "400",
+  "editor.cursorWidth": 4,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  // PATH INTELLISENSE SETTINGS
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+  "editor.linkedEditing": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.wordWrap": "on",
+  "workbench.preferredHighContrastLightColorTheme": "Default Dark+",
+  "zenMode.hideLineNumbers": false,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "files.eol": "\n",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.smoothScrolling": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "gutter",
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "diffEditor.codeLens": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 4,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.accessibilitySupport": "off",
+  "window.restoreFullscreen": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.cursorBlinking": "expand",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "window.commandCenter": false,
+  "files.autoSave": "afterDelay",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "tabnine.experimentalAutoImports": true
+}
