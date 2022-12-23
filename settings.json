@@ -1,6 +1,6 @@
 {
   // Editor Color Customizations
-  // ----------------------------------------------------------------------------------------------------------
+  // -------------
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#ffdd00",
     "editor.background": "#131314",
@@ -14,7 +14,7 @@
   },
 
   // Editor Settings
-  // ----------------------------------------------------------------------------------------------------------
+  // -------------
   "editor.fontFamily": "\"cascadia code\",fira code,Operator Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 17,
   "editor.fontLigatures": true,
@@ -23,7 +23,7 @@
   "editor.letterSpacing": 0.5,
   "editor.tabSize": 2,
   "editor.renderWhitespace": "none",
-  "editor.snippetSuggestions": "top",
+  // "editor.snippetSuggestions": "top",
   "editor.minimap.enabled": true,
   "editor.formatOnSave": true,
   "editor.scrollbar.verticalScrollbarSize": 6,
@@ -35,15 +35,15 @@
   "editor.smoothScrolling": true,
 
   // PATH INTELLISENSE SETTINGS
-  // ----------------------------------------------------------------------------------------------------------
+  // -------------
   "typescript.suggest.paths": false,
   "javascript.suggest.paths": false,
   "editor.linkedEditing": true,
   "editor.wordWrap": "on",
-  // ----------------------------------------------------------------------------------------------------------
+  // -------------
 
   // Prettier Settings
-  // ----------------------------------------------------------------------------------------------------------
+  // -------------
   "prettier.trailingComma": "all",
   "prettier.semi": true,
   "prettier.bracketSpacing": true,
@@ -76,24 +76,24 @@
   },
 
   // Live Server Settings
-  // ----------------------------------------------------------------------------------------------------------
+  // -------------
   "liveServer.settings.donotVerifyTags": true,
   "liveServer.settings.donotShowInfoMsg": true,
-  // ----------------------------------------------------------------------------------------------------------
+  // -------------
 
   // Terminal Settings
-  // ----------------------------------------------------------------------------------------------------------
+  // -------------
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.cursorWidth": 4,
   "terminal.integrated.fontSize": 13,
   "terminal.integrated.cursorStyle": "line",
 
   // Tabnine Settings
-  // ----------------------------------------------------------------------------------------------------------
+  // -------------
   "tabnine.experimentalAutoImports": true,
-  // ----------------------------------------------------------------------------------------------------------
+  // -------------
 
-  // ----------------------------------------------------------------------------------------------------------
+  // -------------
   "zenMode.hideLineNumbers": false,
   "workbench.preferredHighContrastLightColorTheme": "Default Dark+",
   "diffEditor.codeLens": true,
@@ -106,5 +106,6 @@
   "html.suggest.html5": true,
   "window.zoomLevel": 0,
   "extensions.autoUpdate": true,
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.iconTheme": "vscode-icons",
+  "debug.javascript.autoAttachFilter": "always"
 }
