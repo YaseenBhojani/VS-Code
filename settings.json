@@ -2,15 +2,17 @@
   // Editor Color Customizations
   // -------------
   "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#ffdd00",
+    "editorCursor.foreground": "#C6FF00",
     "editor.background": "#131314",
     "editorBracketMatch.background": "#000",
     "menu.background": "#131314",
     "sideBar.background": "#212122",
     "terminal.background": "#040109",
-    "terminalCursor.foreground": "#ffdd00",
+    "terminalCursor.foreground": "#C6FF00",
     "terminal.foreground": "#fff",
-    "statusBar.background": "#102254"
+    "statusBar.background": "#102254",
+    "tab.activeBorder": "#C6FF00",
+    "list.inactiveSelectionForeground": "#C6FF00"
   },
 
   // Editor Settings
