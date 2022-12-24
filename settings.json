@@ -10,7 +10,7 @@
     "terminal.background": "#040109",
     "terminalCursor.foreground": "#ffdd00",
     "terminal.foreground": "#fff",
-    "statusBar.background": "#000"
+    "statusBar.background": "#102254"
   },
 
   // Editor Settings
@@ -106,6 +106,5 @@
   "html.suggest.html5": true,
   "window.zoomLevel": 0,
   "extensions.autoUpdate": true,
-  "workbench.iconTheme": "vscode-icons",
-  "debug.javascript.autoAttachFilter": "always"
+  "workbench.iconTheme": "vscode-icons"
 }
