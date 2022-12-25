@@ -11,7 +11,7 @@
     "terminalCursor.foreground": "#C6FF00",
     "terminal.foreground": "#fff",
     "statusBar.background": "#000",
-    "tab.activeBorder": "#C6FF00",
+    "tab.activeBorderTop": "#C6FF00",
     "list.inactiveSelectionForeground": "#C6FF00"
   },
 
@@ -28,7 +28,7 @@
   // "editor.snippetSuggestions": "top",
   "editor.minimap.enabled": true,
   "editor.formatOnSave": true,
-  "editor.scrollbar.verticalScrollbarSize": 6,
+  "editor.scrollbar.verticalScrollbarSize": 0,
   "editor.mouseWheelZoom": true,
   "editor.cursorWidth": 3,
   "editor.cursorSmoothCaretAnimation": true,
