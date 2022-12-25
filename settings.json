@@ -3,16 +3,20 @@
   // -------------
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#C6FF00",
-    "editor.background": "#131314",
+    "editor.background": "#0f0e0e",
     "editorBracketMatch.background": "#000",
+    "editorGutter.background": "#0f0e0e",
+    "editorLineNumber.activeForeground": "#C6FF00",
+    "editor.lineHighlightBackground": "#0e0f0f",
+    "list.inactiveSelectionForeground": "#C6FF00",
     "menu.background": "#131314",
     "sideBar.background": "#212122",
+    "sideBarTitle.foreground": "#fff",
+    "statusBar.background": "#000",
     "terminal.background": "#040109",
     "terminalCursor.foreground": "#C6FF00",
     "terminal.foreground": "#fff",
-    "statusBar.background": "#000",
-    "tab.activeBorderTop": "#C6FF00",
-    "list.inactiveSelectionForeground": "#C6FF00"
+    "tab.activeBorderTop": "#C6FF00"
   },
 
   // Editor Settings
@@ -113,5 +117,6 @@
   "workbench.statusBar.visible": false,
   "breadcrumbs.enabled": false,
   "workbench.activityBar.visible": false,
-  "workbench.layoutControl.enabled": false
+  "workbench.layoutControl.enabled": false,
+  "workbench.colorTheme": "Monokai"
 }
