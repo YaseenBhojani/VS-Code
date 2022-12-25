@@ -10,7 +10,7 @@
     "terminal.background": "#040109",
     "terminalCursor.foreground": "#C6FF00",
     "terminal.foreground": "#fff",
-    "statusBar.background": "#102254",
+    "statusBar.background": "#000",
     "tab.activeBorder": "#C6FF00",
     "list.inactiveSelectionForeground": "#C6FF00"
   },
@@ -35,13 +35,14 @@
   "editor.renderLineHighlight": "gutter",
   "editor.cursorBlinking": "smooth",
   "editor.smoothScrolling": true,
+  "editor.accessibilitySupport": "on",
+  "editor.linkedEditing": true,
+  "editor.wordWrap": "on",
 
   // PATH INTELLISENSE SETTINGS
   // -------------
   "typescript.suggest.paths": false,
   "javascript.suggest.paths": false,
-  "editor.linkedEditing": true,
-  "editor.wordWrap": "on",
   // -------------
 
   // Prettier Settings
@@ -108,5 +109,9 @@
   "html.suggest.html5": true,
   "window.zoomLevel": 0,
   "extensions.autoUpdate": true,
-  "workbench.iconTheme": "vscode-icons"
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.statusBar.visible": false,
+  "breadcrumbs.enabled": false,
+  "workbench.activityBar.visible": false,
+  "workbench.layoutControl.enabled": false
 }
