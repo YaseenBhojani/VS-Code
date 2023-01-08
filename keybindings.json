@@ -11,7 +11,7 @@
     "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
   },
   {
-    "key": "shift+alt+up",
+    "key": "ctrl+shift+up",
     "command": "editor.action.insertCursorAbove",
     "when": "editorTextFocus"
   },
@@ -21,7 +21,7 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "shift+alt+down",
+    "key": "ctrl+shift+down",
     "command": "editor.action.insertCursorBelow",
     "when": "editorTextFocus"
   },
