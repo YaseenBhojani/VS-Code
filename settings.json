@@ -2,23 +2,9 @@
   // Editor Color Customizations
   // -------------
   "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#fff",
-    "editor.background": "#0f0e0e",
-    "editorBracketMatch.background": "#000",
-    "editorGutter.background": "#0f0e0e",
-    "editorLineNumber.activeForeground": "#d000ff",
-    "editor.lineHighlightBackground": "#0e0f0f",
-    "list.inactiveSelectionForeground": "#d000ff",
-    "menu.background": "#131314",
-    "sideBar.background": "#191818",
     "sideBarTitle.foreground": "#fff",
-    "statusBar.background": "#000",
-    "terminal.background": "#040109",
-    "terminalCursor.foreground": "#fff",
-    "terminal.foreground": "#fff",
-    "tab.activeBorderTop": "#d000ff"
+    "menu.foreground": "#fff"
   },
-
   // Editor Settings
   // -------------
   "editor.fontFamily": "\"cascadia code\",fira code,Operator Mono, Menlo, Monaco, 'Courier New', monospace",
@@ -42,18 +28,17 @@
   "editor.accessibilitySupport": "on",
   "editor.linkedEditing": true,
   "editor.wordWrap": "on",
-
   // PATH INTELLISENSE SETTINGS
   // -------------
   "typescript.suggest.paths": false,
   "javascript.suggest.paths": false,
   // -------------
-
   // Prettier Settings
   // -------------
-  "prettier.trailingComma": "all",
-  "prettier.semi": true,
-  "prettier.bracketSpacing": true,
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "editor.formatOnSaveMode": "file",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -79,27 +64,23 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
-
   // Live Server Settings
   // -------------
   "liveServer.settings.donotVerifyTags": true,
   "liveServer.settings.donotShowInfoMsg": true,
   // -------------
-
   // Terminal Settings
   // -------------
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.cursorWidth": 4,
   "terminal.integrated.fontSize": 13,
   "terminal.integrated.cursorStyle": "line",
-
   // Tabnine Settings
   // -------------
   "tabnine.experimentalAutoImports": true,
   // -------------
-
   // -------------
   "zenMode.hideLineNumbers": false,
   "workbench.preferredHighContrastLightColorTheme": "Default Dark+",
@@ -119,6 +100,42 @@
   "workbench.layoutControl.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.userWords": [
+    "Animation",
+    "auto",
+    "bootstrap",
+    "Brand",
+    "Caret",
+    "class",
+    "Container",
+    "cursor",
+    "dark",
+    "Features",
+    "from",
+    "gutter",
+    "Highlight",
+    "home",
+    "href",
+    "import",
+    "Line",
+    "Link",
+    "mouse",
+    "Name",
+    "Navbar",
+    "none",
+    "pricing",
+    "react",
+    "render",
+    "return",
+    "signin",
+    "Smooth",
+    "snippet",
+    "true",
+    "variant",
+    "Wheel",
+    "Whitespace",
+    "Width"
+  ],
   "workbench.iconTheme": "sweet-vscode-icons",
-  "workbench.colorTheme": "Sweet vscode"
+  "workbench.colorTheme": "Ayu Dark"
 }
