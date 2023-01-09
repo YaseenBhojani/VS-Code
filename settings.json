@@ -1,10 +1,7 @@
 {
   // Editor Color Customizations
   // -------------
-  "workbench.colorCustomizations": {
-    "sideBarTitle.foreground": "#fff",
-    "menu.foreground": "#fff"
-  },
+  "workbench.colorCustomizations": {},
   // Editor Settings
   // -------------
   "editor.fontFamily": "\"cascadia code\",fira code,Operator Mono, Menlo, Monaco, 'Courier New', monospace",
@@ -81,6 +78,54 @@
   // -------------
   "tabnine.experimentalAutoImports": true,
   // -------------
+  // Better Comments Settings
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
   // -------------
   "zenMode.hideLineNumbers": false,
   "workbench.preferredHighContrastLightColorTheme": "Default Dark+",
@@ -102,19 +147,24 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "cSpell.userWords": [
     "Animation",
+    "antd",
     "auto",
     "bootstrap",
     "Brand",
     "Caret",
     "class",
+    "cloumn",
     "Container",
     "cursor",
     "dark",
     "Features",
+    "firebaseapp",
+    "firestore",
     "from",
     "gutter",
     "Highlight",
     "home",
+    "hoverable",
     "href",
     "import",
     "Line",
@@ -123,11 +173,14 @@
     "Name",
     "Navbar",
     "none",
+    "predeploy",
     "pricing",
     "react",
     "render",
     "return",
+    "saylani",
     "signin",
+    "signup",
     "Smooth",
     "snippet",
     "true",
@@ -136,6 +189,7 @@
     "Whitespace",
     "Width"
   ],
-  "workbench.iconTheme": "sweet-vscode-icons",
-  "workbench.colorTheme": "Ayu Dark"
+  "workbench.colorTheme": "JellyFish",
+  "workbench.iconTheme": "material-icon-theme",
+  "diffEditor.ignoreTrimWhitespace": false
 }
