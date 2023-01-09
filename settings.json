@@ -2,21 +2,21 @@
   // Editor Color Customizations
   // -------------
   "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#ffe100",
+    "editorCursor.foreground": "#fff",
     "editor.background": "#0f0e0e",
     "editorBracketMatch.background": "#000",
     "editorGutter.background": "#0f0e0e",
-    "editorLineNumber.activeForeground": "#ffe100",
+    "editorLineNumber.activeForeground": "#d000ff",
     "editor.lineHighlightBackground": "#0e0f0f",
-    "list.inactiveSelectionForeground": "#ffe100",
+    "list.inactiveSelectionForeground": "#d000ff",
     "menu.background": "#131314",
-    "sideBar.background": "#212122",
+    "sideBar.background": "#191818",
     "sideBarTitle.foreground": "#fff",
     "statusBar.background": "#000",
     "terminal.background": "#040109",
-    "terminalCursor.foreground": "#ffe100",
+    "terminalCursor.foreground": "#fff",
     "terminal.foreground": "#fff",
-    "tab.activeBorderTop": "#ffe100"
+    "tab.activeBorderTop": "#d000ff"
   },
 
   // Editor Settings
@@ -113,11 +113,12 @@
   "html.suggest.html5": true,
   "window.zoomLevel": 0,
   "extensions.autoUpdate": true,
-  "workbench.iconTheme": "vscode-icons",
   "workbench.statusBar.visible": false,
   "breadcrumbs.enabled": false,
   "workbench.activityBar.visible": false,
   "workbench.layoutControl.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Monokai"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.iconTheme": "sweet-vscode-icons",
+  "workbench.colorTheme": "Sweet vscode"
 }
